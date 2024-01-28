@@ -84,8 +84,12 @@ const topTravelDestinationsBangla = [
     "Great Hornbill"
   ];
   
+
 //   console.log(topBirds);
-  
-  
-  
+
 console.log(fruits.concat(topTravelDestinationsBangla, topBirds))
+
+console.log(topBirds.slice(5))
+
+console.log(topBirds.splice(4, 5))
+console.log(topBirds)

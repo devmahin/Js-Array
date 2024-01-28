@@ -52,19 +52,40 @@ const fruits = [
     "Guava",
     "Lychee",
     "Dragon Fruit",
-    "Tangerine",
-    "Cantaloupe",
-    "Honeydew",
-    "Nectarine",
-    "Kumquat",
-    "Star Fruit",
-    "Persimmon",
-    "Clementine",
-    "Gooseberry",
-    "Mulberry",
     "Mandarin","Pawpaw","Quince","Rambutan","Plantain","Soursop","Ackee","Bilberry","Elderberry","Feijoa"
 ];
+console.log(fruits)
 console.log(fruits.includes("Soursop"));
 console.log(fruits.indexOf("Feijoa"));
 console.log (Array.isArray(fruits))
 console.log(fruits.join("_"))
+
+
+const topTravelDestinationsBangla = [
+    "প্যারিস, ফ্রান্স",
+    "রোম, ইতালি",
+    "লন্ডন, যুক্তরাজ্য",
+    "বার্সেলোনা, স্পেন",
+    "টোকিও, জাপান",
+    "কেপ টাউন, দক্ষিণ আফ্রিকা",
+    "ফিনিক্স, আরিজোনা, মার্কিন যুক্তরাষ্ট্র",
+  ];
+
+  const topBirds = [
+    "Bald Eagle",
+    "Golden Eagle",
+    "Peregrine Falcon",
+    "Harpy Eagle",
+    "Crowned Eagle",
+    "Victoria Crowned Pigeon",
+    "Hyacinth Macaw",
+    "California Condor",
+    "Andean Condor",
+    "Great Hornbill"
+  ];
+  
+//   console.log(topBirds);
+  
+  
+  
+console.log(fruits.concat(topTravelDestinationsBangla, topBirds))
